@@ -42,7 +42,7 @@ class DefinitionsController < ApplicationController
   def update
     respond_to do |format|
       if @definition.update(definition_params)
-        format.html { redirect_to @definition, notice: 'Definition was successfully updated.' }
+        format.html { redirect_to definitions_url, notice: 'Definición actualizada con éxito.' }
         format.json { render :show, status: :ok, location: @definition }
       else
         format.html { render :edit }
@@ -56,7 +56,7 @@ class DefinitionsController < ApplicationController
   def destroy
     @definition.destroy
     respond_to do |format|
-      format.html { redirect_to definitions_url, notice: 'Definition was successfully destroyed.' }
+      format.html { redirect_to definitions_url, notice: 'Definición eliminada con éxito.' }
       format.json { head :no_content }
     end
   end
