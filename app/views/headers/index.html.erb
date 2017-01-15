@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="col m12">
+    <h3>Encabezados</h3>
+
+    <table class="highlight">
+      <thead>
+        <tr>
+          <th>Sección</th>
+          <th>Contenido</th>
+          <th>Cita</th>
+          <th colspan="2"></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% @headers.each do |header| %>
+          <tr>
+            <td><%= header.section %></td>
+            <td><%= header.content %></td>
+            <td><%= header.quote %></td>
+            <td><%= link_to 'Editar', edit_header_path(header) %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+    
+  </div>
+</div>

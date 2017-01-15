@@ -1,0 +1,34 @@
+<div class="row">
+  <div class="col s3">
+    <h3>Definiciones</h3>
+  </div>
+  <div class="col s9">
+    <%= link_to 'Agregar definición', new_definition_path %>
+  </div>
+  <div class="col s12">
+
+    <table class="highlight">
+      <thead>
+        <tr>
+          <th>Título</th>
+          <th>Contenido</th>
+          <th>Fuente</th>
+          <th colspan="3"></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% @definitions.each do |definition| %>
+          <tr>
+            <td><%= definition.title %></td>
+            <td><%= definition.content %></td>
+            <td><%= definition.source %></td>
+            <td><%= link_to 'Edit', edit_definition_path(definition) %></td>
+            <td><%= link_to 'Eliminar', definition, method: :delete, data: { confirm: '¿Está seguro(a) que desea eliminar esta definición?' } %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+  </div> 
+</div>
