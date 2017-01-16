@@ -11,15 +11,19 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :section %><br>
-    <%= f.text_field :section %>
+  <div class="input-field">
+    <%= f.text_field :section, required: true, disabled: true %>
+    <%= f.label :Sección %>
   </div>
-  <div class="field">
-    <%= f.label :content %><br>
-    <%= f.text_area :content %>
+  <div class="input-field">
+    <%= f.text_area :content, class: "materialize-textarea", required: true %>
+    <%= f.label "Contenido *" %>
+  </div>
+  <div class="input-field">
+    <%= f.text_area :quote, class: 'materialize-textarea' %>
+    <%= f.label :cita %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Guardar" %>
   </div>
 <% end %>
