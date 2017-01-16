@@ -36,3 +36,7 @@ a:hover {
 .btn-new {
 	margin-top: 3%;
 }
+
+.no-hover:hover {
+	font-weight: normal;
+}

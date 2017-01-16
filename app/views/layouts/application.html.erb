@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nomasviolencia</title>
+  <title>No Más Violencia</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<script src="https://use.fontawesome.com/ce5ebec893.js"></script>
 </head>
 <body>
 	<header>
 		<div class="navbar-fixed">		
 			<nav>
 			  <div class="nav-wrapper">
-			    <a href="#" class="brand-logo">Administración del sitio No Mas Violencia</a>
+			    <a href="<%= root_path %>" class="brand-logo no-hover">Administración del sitio No Mas Violencia</a>
 			    <ul id="nav-mobile" class="right hide-on-med-and-down">
 			      <li><a href="/headers">Encabezados</a></li>
 			      <li><a href="/definitions">Definiciones</a></li>
