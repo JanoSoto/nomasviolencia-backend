@@ -1,0 +1,29 @@
+<%= form_for(@national_complaint) do |f| %>
+  <% if @national_complaint.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@national_complaint.errors.count, "error") %> prohibited this national_complaint from being saved:</h2>
+
+      <ul>
+      <% @national_complaint.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="input-field">
+    <%= f.text_field :institution %>
+    <%= f.label :institución, class: 'active' %>
+  </div>
+  <div class="input-field">
+    <%= f.text_field :web_page %>
+    <%= f.label :página_web, class: 'active' %>
+  </div>
+  <div class="input-field">
+    <%= f.text_field :phone_number %>
+    <%= f.label :número_de_teléfono, class: 'active' %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Guardar" %>
+  </div>
+<% end %>

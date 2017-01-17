@@ -3,13 +3,19 @@
 <head>
   <title>No Más Violencia</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <%= csrf_meta_tags %>
 	<script src="https://use.fontawesome.com/ce5ebec893.js"></script>
 </head>
 <body>
 	<header>
 		<div class="navbar-fixed">		
+			<ul id="dropdown1" class="dropdown-content">
+			  <li><a href="/forced_reports">Obligados a denunciar</a></li>
+			  <li><a href="/national_complaints">Denuncia Nacional</a></li>
+			  <li><a href="#!">Denuncia U de Santiago</a></li>
+			</ul>
 			<nav>
 			  <div class="nav-wrapper">
 			    <a href="<%= root_path %>" class="brand-logo no-hover">Administración del sitio No Mas Violencia</a>
@@ -17,7 +23,7 @@
 			      <li><a href="/headers">Encabezados</a></li>
 			      <li><a href="/definitions">Definiciones</a></li>
 			      <li><a href="/legals">Marco Legal</a></li>
-			      <li><a href="#">Vías de denuncia</a></li>
+			      <li><a class="dropdown-button dropdown-nav" href="#!" data-activates="dropdown1">Vías de denuncia<i class="material-icons right">arrow_drop_down</i></a></li>
 			    </ul>
 			  </div>
 			</nav>
@@ -29,8 +35,5 @@
 			<%= yield %>		
 		</div>
 	</div>
-
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 </body>
 </html>

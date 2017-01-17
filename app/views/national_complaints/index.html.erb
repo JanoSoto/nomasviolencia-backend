@@ -1,0 +1,36 @@
+<div class="row">
+  <p id="notice"><%= notice %></p>
+  <div class="col s8">
+    <h3>Vías de Denuncia Nacional</h3>
+  </div>
+  <div class="col s4">
+    <%= link_to 'Nueva Vía de Denuncia Nacional', new_national_complaint_path, class: 'btn white-text btn-new' %>
+  </div>
+
+  <div class="col s12">
+
+    <table class="highlight">
+      <thead>
+        <tr>
+          <th>Institución</th>
+          <th>Página Web</th>
+          <th>Número de teléfono</th>
+          <th colspan="3"></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% @national_complaints.each do |national_complaint| %>
+          <tr>
+            <td><%= national_complaint.institution %></td>
+            <td><%= national_complaint.web_page %></td>
+            <td><%= national_complaint.phone_number %></td>
+            <td><%= link_to 'Editar', edit_national_complaint_path(national_complaint) %></td>
+            <td><%= link_to 'Eliminar', national_complaint, method: :delete, data: { confirm: '¿Está seguro(a) que desea eliminar esta vía de denuncia nacional?' } %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+    
+  </div>
+</div>

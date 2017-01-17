@@ -1,0 +1,22 @@
+<div class="row">
+  <p id="notice"><%= notice %></p>
+  <div class="col s12">
+    <h4>Sección "Están obligados a denunciar"</h4>
+
+    <div class="row">
+      <div class="col s4">
+        <h6>Contenido actual:</h6>
+      </div>
+      <div class="col s8">
+        <td><%= link_to 'Editar', edit_forced_report_path(@forced_report), class: 'btn white-text' %></td>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s6">
+        
+        <%= @forced_report.content %>
+      </div>
+    </div>
+    
+  </div>
+</div>

@@ -6,6 +6,26 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+NationalComplaint.create(institution: "Juzgados de Familia", web_page: "http://familia.minjusticia.gob.cl/", phone_number: "(56-2) 26743100")
+NationalComplaint.create(institution: "Carabineros", web_page: "http://www.carabineros.cl/", phone_number: "149")
+NationalComplaint.create(institution: "Policía de Investigaciones", web_page: "http://www.pdichile.cl/", phone_number: "134 - 2 27080000")
+NationalComplaint.create(institution: "Ministerio Público", web_page: "http://www.fiscaliadechile.cl/Fiscalia/index.do", phone_number: "600 333 0000")
+NationalComplaint.create(institution: "Ministerio de la Mujer", web_page: "http://www.minmujeryeg.gob.cl/sernameg/programas/violencia-contra-las-mujeres/fono-violencia/", phone_number: "800 104 008")
+
+ForcedReport.create(id: 1, content: "<ul class=\"list-card-padding\">
+                        <li class=\"list-alpha\">Los miembros de Carabineros de Chile, de la Policía de Investigaciones de Chile y de Gendarmería, todos los delitos que presenciaren o llegaren a su noticia. Los miembros de las Fuerzas Armadas estarán también obligados a denunciar todos los delitos de que tomaren conocimiento en el ejercicio de sus funciones;</li>
+                        <li class=\"list-alpha\">Los fiscales y los demás empleados públicos, los delitos de que tomaren conocimiento en el ejercicio de sus funciones y, especialmente, en su caso, los que notaren en la conducta ministerial de sus subalternos;</li>
+                        <li class=\"list-alpha\">Los jefes de puertos, aeropuertos, estaciones de trenes o buses o de otros medios de locomoción o de carga, los capitanes de naves o de aeronaves comerciales que naveguen en el mar territorial o en el espacio territorial, respectivamente, y los conductores de los trenes, buses u otros medios de transporte o carga, los delitos que se cometieren durante el viaje, en el recinto de una estación, puerto o aeropuerto o a bordo del buque o aeronave;</li>
+                        <li class=\"list-alpha\">Los jefes de establecimientos hospitalarios o de clínicas particulares y, en general, los profesionales en medicina, odontología, química, farmacia y de otras ramas relacionadas con la conservación o el restablecimiento de la salud, y los que ejercieren prestaciones auxiliares de ellas, que notaren en una persona o en un cadáver señales de envenenamiento o de otro delito, y</li>
+                        <li class=\"list-alpha bold\">Los directores, inspectores y profesores de establecimientos educacionales de todo nivel, los delitos que afecten a los alumnos o que hubieren tenido lugar en el establecimiento.</li>
+                    </ul>
+                    <p>
+                        La denuncia realizada por alguno de los obligados en este artículo eximirá al resto.
+                    </p>
+                    <p>
+                        Más información en: <a href=\"http://www.leychile.cl/Navegar?idNorma=198675\" target=\"_blank\" rel=\"noopener noreferrer\">NORMAS ADECUATORIAS DEL SISTEMA LEGAL CHILENO A LA REFORMA PROCESAL PENAL</a>
+</p>")
+
 Legal.create(title: "Legislación Nacional", content: "<h3>Legislación Nacional</h3>
         <p class=\"description\">
             Chile ha consolidado un marco legal en favor de la Eliminación de la violencia de género y contra las mujeres. 

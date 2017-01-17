@@ -10,8 +10,8 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_self
  *= require_tree .
+ *= require_self
  */
 
 @import "materialize.min.css";
@@ -44,4 +44,22 @@ a:hover {
 
 .hidden {
 	display: none;
+}
+
+.brand-logo:visited {
+	color: #FFF;
+}
+
+.dropdown-content li a {
+	color: rgb(238, 110, 115);
+}
+.dropdown-content li a:visited {
+	color: rgb(238, 110, 115);
+}
+
+.dropdown-nav:hover {
+	color: #FFF;
+}
+.dropdown-nav:visited {
+	color: #FFF;
 }

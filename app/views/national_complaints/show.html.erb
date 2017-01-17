@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Institution:</strong>
+  <%= @national_complaint.institution %>
+</p>
+
+<p>
+  <strong>Web page:</strong>
+  <%= @national_complaint.web_page %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @national_complaint.phone_number %>
+</p>
+
+<%= link_to 'Edit', edit_national_complaint_path(@national_complaint) %> |
+<%= link_to 'Back', national_complaints_path %>

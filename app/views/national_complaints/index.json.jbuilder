@@ -1,0 +1,1 @@
+json.array! @national_complaints, partial: 'national_complaints/national_complaint', as: :national_complaint

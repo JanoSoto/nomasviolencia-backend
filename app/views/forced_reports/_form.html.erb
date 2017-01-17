@@ -1,0 +1,25 @@
+<%= form_for(@forced_report) do |f| %>
+  <% if @forced_report.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@forced_report.errors.count, "error") %> prohibited this forced_report from being saved:</h2>
+
+      <ul>
+      <% @forced_report.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="input-field">
+    <%= f.label "Contenido *" %>
+    <br>
+    <br>
+    <!--input id="x" type="hidden" name="content" required="true"-->
+    <%= f.text_field :content, required: true, id: 'x', class: 'hidden' %>
+    <trix-editor input="x"></trix-editor>
+  </div>
+  <div class="actions">
+    <%= f.submit "Guardar" %>
+  </div>
+<% end %>

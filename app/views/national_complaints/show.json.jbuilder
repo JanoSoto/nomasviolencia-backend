@@ -1,0 +1,1 @@
+json.partial! "national_complaints/national_complaint", national_complaint: @national_complaint

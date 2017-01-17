@@ -1,0 +1,1 @@
+json.array! @forced_reports, partial: 'forced_reports/forced_report', as: :forced_report

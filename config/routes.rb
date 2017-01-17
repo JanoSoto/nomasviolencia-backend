@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :national_complaints
+  resources :forced_reports
   resources :legals
   resources :definitions
   resources :headers
