@@ -12,12 +12,17 @@
   <% end %>
 
   <div class="input-field">
-    <%= f.text_field :title, required: true, disabled: true %>
+    <%= f.text_field :title, required: true %>
     <%= f.label "Título *" %>
   </div>
   <div class="input-field">
-    <%= f.text_area :content, class: "materialize-textarea", required: true %>
     <%= f.label "Contenido *" %>
+    <br>
+    <br>
+    <!--input id="x" type="hidden" name="content" required="true"-->
+    <%= f.text_field :content, required: true, id: 'x', class: 'hidden' %>
+    <trix-editor input="x"></trix-editor>
+    <%#= f.text_area :content, class: "materialize-textarea", required: true, id: 'froala-editor' %>
   </div>
   <div class="actions">
     <%= f.submit "Guardar" %>

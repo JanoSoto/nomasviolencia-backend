@@ -10,10 +10,11 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
  *= require_self
+ *= require_tree .
  */
 
+@import "materialize.min.css";
 
 nav ul{
 	line-height: 64px;
@@ -28,7 +29,7 @@ a:visited {
 }
 
 a:hover {
-	font-weight: bold;
+	font-weight: normal;
 	background-color: transparent;
 	color: #039be5;
 }
@@ -39,4 +40,8 @@ a:hover {
 
 .no-hover:hover {
 	font-weight: normal;
+}
+
+.hidden {
+	display: none;
 }
