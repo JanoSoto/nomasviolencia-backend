@@ -6,6 +6,102 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+UsachComplaint.create(id: 1, content: "<h3>Denuncia U. de Santiago de Chile</h3>
+
+
+        <div class=\"col m9 offset-m3\">
+            <p class=\"quote\">
+                La violencia de género ha pasado de ser una cuestión de la esfera privada, a ser el centro de un debate público que parte de la premisa de que una sociedad que pretende garantizar unas condiciones de calidad de vida, no puede permitir que una realidad de este tipo tenga lugar. Personas individuales, colectivos e instituciones se han puesto de acuerdo en denunciar esta realidad e iniciar un proceso de establecimiento de medidas para la prevención y erradicación de la violencia de género.
+            </p>
+        </div>
+        <div class=\"col m6 offset-m6\">
+            <p class=\"quote\">
+                Rosa Larena Fernández; Silvia Molina Roldán. Violencia de Género en las Universidades: Investigaciones y medidas para prevenirla. Revista Trabajo Social Global 2010, 1 (2) 202-219. 
+            </p>
+        </div>
+        <p>
+            La Universidad es un reflejo de las situaciones que se viven en la sociedad general, por lo que nuestra Casa de Estudios no está exenta de aquellas situaciones que agreden la dignidad de las personas. Por ello, a través de este mecanismo buscamos garantizar un ambiente libre de discriminación, hostigamiento, y violencia de género.
+        </p>
+        <p>
+            La Universidad de Santiago de Chile, a través de estas herramientas de denuncia, propende que toda la Comunidad Universitaria tenga derecho a una vida sin violencia. Por ello, cuenta con ámbitos de confianza y seguridad para que las personas afectadas puedan exponer libremente la situación vivida, poner en funcionamiento los procedimientos de investigaciones y, si aplican, las sanciones correspondientes.
+        </p>
+        <p>
+            Cuando se realiza una denuncia interna se inicia una investigación sumarial. El órgano competente de recibir, investigar y sancionar en nuestra Comunidad es la <a href=\"http://www.usach.cl/secretaria-general\" target=\"_blank\" rel=\"noopener noreferrer\">Secretaría General</a> a través de la Dirección de Asistencia Jurídica.
+        </p>
+        <p>
+            <span class=\"bold\">Importante: </span>El Punto Focal de Género no recibe denuncias y no realiza investigaciones.
+        </p>
+
+        <h5>¿Quién puede hacer una denuncia?</h5>
+        <p>
+            Cualquier persona vinculada a la universidad (estudiante, académico/a o funcionaria/o). Sea la persona afectada y están obligados/as a denunciar -de acuerdo al Artículo 175 del Código procesal Penal, para la institución compete el numeral e. “los directores, inspectores y profesores de establecimientos educacionales de todo nivel, los delitos que afecten a los alumnos o que hubieren tenido lugar en el establecimiento”.
+        </p>
+
+        <h5>¿Es lo mismo denunciar situaciones de Violencia de Género en la Universidad que en carabineros, la PDI, juzgados de familia o el Ministerio Público?</h5>
+        <p>
+            No, la Universidad de Santiago de Chile como institución educativa cuenta con un reglamento interno que busca garantizar las relaciones de convivencia y bienestar de toda la comunidad universitaria, pero no puede sustituir a la justicia penal.
+        </p>
+        <p>
+            Esto quiere decir que la Universidad puede impartir sanciones disciplinarias, sumariales pero no penales. Si es que existiese delito, se deberá realizar la denuncia en las instituciones correspondientes como carabineros, la PDI, juzgados de familia o el Ministerio Público. La vía Denuncia Nacional en este enlace: (llevar lo que tenemos de denuncia nacional).
+        </p>
+
+        <h5>¿Cómo se realiza la denuncia en la Universidad de Santiago de Chile?</h5>
+        <p>
+            Se pueden seguir dos caminos:
+        </p>
+        <ol class=\"list-padding\">
+            <li>Realizar la denuncia mediante una carta dirigida al Rector de la Universidad que debe tener:</li>
+            <ol>
+                <li class=\"list-alpha\">Nombre de la persona que realiza la denuncia</li>
+                <li class=\"list-alpha\">Correo o teléfono</li>
+                <li class=\"list-alpha\">Unidad administrativa o académica </li>
+                <li class=\"list-alpha\">Nombre de la persona a la que denuncia</li>
+                <li class=\"list-alpha\">Correo o teléfono (si lo tiene)</li>
+                <li class=\"list-alpha\">Unidad administrativa o académica (si lo tiene)</li>
+                <li class=\"list-alpha\">Breve descripción de los hechos de Violencia de género (acusación y contexto de la situación)</li>
+                <li class=\"list-alpha\">Pruebas (si las tiene)</li>
+                <p>
+                    Esta carta debe ser entregada en la Oficina de Partes de la Rectoría o directamente a la autoridad.
+                </p>
+
+                <!-- IMPORTANTE: NO BORRAR LA LÍNEA SIGUIENTE. Es el botón para descargar el modelo de carta de denuncia -->
+                <a target=\"_self\" href=\"download/Carta_nuevo_protocolo.doc\" download=\"Carta_nuevo_protocolo.doc\" class=\"btn-denuncia waves-effect waves-light btn btn-gray\"><i class=\"fa fa-download\" aria-hidden=\"true\"></i> Hemos preparado un modelo de carta que puedes descargar acá</a>
+                
+            </ol>
+            <li>Otra forma de denunciar situaciones de Violencia de Género</li>
+            <ul class=\"list-padding\">
+                <li class=\"list-circle\"><span class=\"bold\">Académicas/os y funcionarios/as: </span> Dirigirse a su jefe directo, y si fuera él/ella quien es el /la protagonista de estos hechos al /la superior de su jefatura, o en el Departamento de Recursos Humanos.</li>
+                <li class=\"list-circle\"><span class=\"bold\">Estudiantes</span> Presentar la denuncia al Director/a de carrera, Decano/a o autoridad académica y realizar la denuncia, se recomienda hacerla de forma escrita. También puede enviar una carta a la Vicerrectoría de Apoyo al Estudiante.</li>
+                <li class=\"list-circle\">Para personas que son parte de los servicios generales (aseo, jardines o seguridad) deben enviar la carta al Rector.</li>
+            </ul>
+        </ol>
+        
+        <h5>¿Cuales son los derechos de quien denuncia?</h5>
+        <ol class=\"list-padding\">
+            <li>Todas las personas que realizan una denuncia deben tener Asesoramiento gratuito. </li>
+            <li>Se debe velar por la confidencialidad, el respeto y privacidad. </li>
+            <li>Acceso a procedimientos de contención y acompañamiento.</li>
+            <li>Debe tener todas las garantías de No re‐victimización. La investigación debe realizarse tratando de evitar la reiteración innecesaria del relato de los hechos.</li>
+            <li>Todas las acciones se realizarán bajo los principios y derechos reconocidos por la Convención Interamericana para prevenir, sancionar y erradicar la violencia contra las mujeres.</li>
+        </ol>
+
+        <h5>¿Cuáles son las resoluciones o normas internas sobre la temática?</h5>
+        <p class=\"bold\">Estudiantil</p>
+        <p>
+            Decreto Universitario N°206. Reglamento sobre Responsabilidad Estudiantil y Procedimientos Disciplinarios. 1986 
+        </p>
+        <p>
+            N° 1117 Modifica decreto Universitario n°206. 14/12/1989
+        </p>
+        <p>
+            N° 05472 Sustitución del Artículo 12. Sobre Reglamento sobre Responsabilidad Estudiantil y Procedimientos Disciplinarios. 12/10/2001
+        </p>
+
+        <p class=\"bold\">Trabajadores/as: Académicos/as y funcionarios/as</p>
+        <p>
+            Instrucciones sobre Acoso Laboral. 27/4/2016
+</p>")
+
 NationalComplaint.create(institution: "Juzgados de Familia", web_page: "http://familia.minjusticia.gob.cl/", phone_number: "(56-2) 26743100")
 NationalComplaint.create(institution: "Carabineros", web_page: "http://www.carabineros.cl/", phone_number: "149")
 NationalComplaint.create(institution: "Policía de Investigaciones", web_page: "http://www.pdichile.cl/", phone_number: "134 - 2 27080000")

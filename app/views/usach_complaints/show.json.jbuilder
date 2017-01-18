@@ -1,0 +1,1 @@
+json.partial! "usach_compaints/usach_complaint", usach_complaint: @usach_complaint

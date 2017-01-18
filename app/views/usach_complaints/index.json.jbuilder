@@ -1,0 +1,1 @@
+json.array! @usach_complaint, partial: 'usach_complaint/usach_compaint', as: :usach_complaint

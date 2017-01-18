@@ -63,3 +63,7 @@ a:hover {
 .dropdown-nav:visited {
 	color: #FFF;
 }
+
+.bold {
+	font-weight: bold;
+}

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :usach_complaints
   resources :national_complaints
   resources :forced_reports
   resources :legals
