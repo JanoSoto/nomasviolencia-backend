@@ -67,3 +67,8 @@ a:hover {
 .bold {
 	font-weight: bold;
 }
+
+.editor-html {
+	height: 30rem;
+	overflow-y: scroll;
+}
