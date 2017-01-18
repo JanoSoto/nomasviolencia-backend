@@ -4,7 +4,7 @@ class ForcedReportsController < ApplicationController
   # GET /forced_reports
   # GET /forced_reports.json
   def index
-    @forced_report = ForcedReport.find(1)
+    @forced_report = ForcedReport.first
   end
 
   # GET /forced_reports/1

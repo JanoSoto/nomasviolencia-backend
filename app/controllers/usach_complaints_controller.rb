@@ -4,7 +4,7 @@ class UsachComplaintsController < ApplicationController
   # GET /usach_complaint
   # GET /usach_complaint.json
   def index
-    @usach_complaint = UsachComplaint.find(1)
+    @usach_complaint = UsachComplaint.first
   end
 
   # GET /usach_complaint/1
